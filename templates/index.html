@@ -1,0 +1,29 @@
+{% extends 'layout/base.html' %}
+
+{% block body %}
+
+<h1>This is Flask</h1>
+<p>very basic sample page</p>
+
+{% endblock %}
+
+{% block css %}
+<style>
+  main {
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    background-color: rgb(144, 147, 147);
+    background-image: url('https://media.istockphoto.com/photos/round-podium-or-pedestal-picture-id1168945233?b=1&k=20&m=1168945233&s=170667a&w=0&h=wTEq4A-_cCUyGnvDBm-Wx216upx1_1azMRr_ivOUuEs=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+
+</style>
+{% endblock %}
